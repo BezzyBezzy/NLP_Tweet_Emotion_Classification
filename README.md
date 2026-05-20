@@ -8,7 +8,7 @@ This repository contains a comprehensive, two-part Natural Language Processing (
 * **Part 1: Classic Deep Learning & Word Embeddings** focuses on using recurrent structures (LSTMs and GRUs) paired with distinct word representation methods (GloVe and Word2Vec) to classify text sequences, complete with systematic hyperparameter random-search tuning.
 * **Part 2: Emotion Classification of Tweets via Transformers** delivers a comparative study of modern pre-trained language models (BERTweet, Twitter-RoBERTa, and DeBERTa-v3) optimized for short-text social media sentiment analysis, followed by post-training compression evaluations (unstructured pruning, structural attention head pruning, and knowledge distillation).
 
-* The models were trained and evaluated on the [mteb/emotion](https://huggingface.co/datasets/mteb/emotion) dataset, using a standard 80/20 train/validation split. This dataset consists of English Twitter messages labeled with one of six discrete emotional categories: *sadness* (0), *joy* (1), *love* (2), *anger* (3), *fear* (4), or *surprise* (5).
+The models were trained and evaluated on the [mteb/emotion](https://huggingface.co/datasets/mteb/emotion) dataset, using a standard 80/20 train/validation split. This dataset consists of English Twitter messages labeled with one of six discrete emotional categories: *sadness* (0), *joy* (1), *love* (2), *anger* (3), *fear* (4), or *surprise* (5).
 
 ---
 
